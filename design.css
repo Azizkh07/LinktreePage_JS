@@ -1,0 +1,160 @@
+body {
+    margin:0;
+    padding:0;
+    background-color: black;
+    color:rgb(240, 240, 240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width:100vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+header{
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+.share-button{
+    width:40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(240, 240, 240);
+
+
+}
+.share-button svg{
+    margin-left: 12px;
+    margin-top: 12px;
+    color:black;
+}
+.container{
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.tile{
+    width: 100%;
+    background-color: rgb(37,37 ,37);
+    margin: 7px;
+    border-radius: 17px;
+    display: flex;
+justify-content: space-between;
+
+}
+.tile:hover{
+    transition: cubic-bezier(0.07, 1.41, .82, 1.41)0.2s;
+    transform: scale(1.02);
+}
+a{
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+}
+
+h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.image-container{
+    height: 96px;
+    width: 96px;
+    border-radius:50px;
+    overflow: hidden;
+  
+
+}
+ /*to stretch image*/
+.image-container img{
+    height: 100%;
+    
+}
+
+.tile-share-button{
+    margin: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(52, 52, 52);
+
+}
+.icon{
+    width: 30px;
+    height: 20px;
+    margin: 14px 14px;
+    
+    
+}
+.change-my-color {
+    fill: white;
+  }
+
+.tile-share-button svg{
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+h1 span {
+    font-size: 4rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #111;
+    animation: glowing 5s linear infinite;
+  }
+  
+  @keyframes glowing {
+    0%, 100% {
+      color: #fff;
+      filter: blur(2px);
+      text-shadow: 0 0 10px #00b3ff,
+                   0 0 20px #00b3ff,
+                   0 0 40px #00b3ff,
+                   0 0 80px #00b3ff,
+                   0 0 120px #00b3ff,
+                   0 0 200px #00b3ff,
+                   0 0 300px #00b3ff,
+                   0 0 400px #00b3ff;
+    } 5%, 95% {
+      color: #111;
+      text-shadow: none;
+      filter: blur(0px);
+    }
+  }
+  
+  h1 span:nth-child(1){
+    animation-delay: 0s;
+  }
+  
+  h1 span:nth-child(2){
+    animation-delay: .25s;
+  }
+  
+  h1 span:nth-child(3){
+    animation-delay: .5s;
+  }
+  
+  h1 span:nth-child(4){
+    animation-delay: .75s;
+  }
+  
+  h1 span:nth-child(5){
+    animation-delay: 1s;
+  }
+  
+  h1 span:nth-child(6){
+    animation-delay: 1.25s;
+  }
+  
+  h1 span:nth-child(7){
+    animation-delay: 1.5s;
+  }
+  
+  h1 span:nth-child(8){
+    animation-delay: 1.75s;
+  }
